@@ -34,15 +34,8 @@ class BookDetailsViewBody extends StatelessWidget {
               style: Styles.textStyle18.copyWith(fontStyle: FontStyle.italic,fontWeight: FontWeight.w500,)
             ),
           ),
-          const SizedBox(height: 6,),
-          Text(
-            r'19.99 $',
-            style: Styles.textStyle20.copyWith(
-            fontWeight: FontWeight.bold
-            ),
-          ),
-          const SizedBox(height: 6,),
-          const BookRating(),
+          const SizedBox(height: 18,),
+          const BookRating(mainAxisAlignment: MainAxisAlignment.center,),
         ],
       ),
     );
